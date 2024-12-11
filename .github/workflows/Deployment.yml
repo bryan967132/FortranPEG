@@ -18,6 +18,8 @@ jobs:
       url: ${{ steps.Deployment.outputs.page_url }}
 
     steps:
+      - uses: actions/checkout@v4
+
       - name: Deployment
         id: Deployment
         uses: actions/deploy-pages@v4
