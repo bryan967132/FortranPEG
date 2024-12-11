@@ -29,14 +29,14 @@ a {
     text-decoration: none;
 }
 
-.filas {
+.rows {
     display: flex;
     flex-direction: column;
     justify-content: center;
     height: auto;
 }
 
-.columnas {
+.columns {
     margin-top: 1vh;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -51,7 +51,7 @@ a {
     min-width: 90%;
 }
 
-.botones {
+.buttons {
     margin: 0 1rem;
     display: flex;
     flex-direction: row;
@@ -60,7 +60,7 @@ a {
     align-items: center;
 }
 
-.boton {
+.button {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -77,11 +77,11 @@ a {
     width: 12%;
 }
 
-.boton:hover {
+.button:hover {
     background-color: #22b81d;
     color: white;
 }
 
-.boton:active {
+.button:active {
     background-color: #27da21;
 }
