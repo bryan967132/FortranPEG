@@ -8,6 +8,15 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    steps:
+      - name: Upload static files as artifact
+        id: deployment
+        uses: actions/upload-pages-artifact@v3 # or specific "vX.X.X" version tag for this action
+        with:
+          path: ./src/FrontEnd
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
 
     permissions:
       pages: write
@@ -15,11 +24,11 @@ jobs:
 
     environment:
       name: github-pages
-      url: ${{ steps.Deployment.outputs.page_url }}
+      url: ${{ steps.deployment.outputs.page_url }}
 
     steps:
       - uses: actions/checkout@v4
 
       - name: Deployment
-        id: Deployment
+        id: deployment
         uses: actions/deploy-pages@v4
