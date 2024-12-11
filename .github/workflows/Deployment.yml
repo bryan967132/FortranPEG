@@ -9,12 +9,15 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
+    permissions:
+      pages: write
+      id-token: write
 
+    environment:
+      name: github-pages
+      url: ${{ steps.Deployment.outputs.page_url }}
+
+    steps:
       - name: Deployment
+        id: Deployment
         uses: actions/deploy-pages@v4
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: src/FrontEnd
