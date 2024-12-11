@@ -1,0 +1,12 @@
+{
+    "name": "backend",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "g": "peggy Parser/Parser.peggy -o Parser/Parser.js --format globals --export-var Parser"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "MIT"
+}
