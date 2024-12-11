@@ -33,11 +33,6 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
 
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
