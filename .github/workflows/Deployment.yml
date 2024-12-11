@@ -14,7 +14,6 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Deployment
-        uses: peaceiris/actions-gh-pages@v4
+        uses: actions/deploy-pages@v4
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: src/FrontEnd
