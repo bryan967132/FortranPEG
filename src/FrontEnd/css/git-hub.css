@@ -1,0 +1,103 @@
+.cm-s-git-hub.CodeMirror {
+    background: rgb(13, 17, 23);
+    color: #ffffff;
+}
+.cm-s-git-hub div.CodeMirror-selected {
+    background: rgb(30, 66, 115);
+}
+.cm-s-git-hub .CodeMirror-line::selection,
+.cm-s-git-hub .CodeMirror-line > span::selection,
+.cm-s-git-hub .CodeMirror-line > span > span::selection {
+    background: rgba(73, 72, 62, 0.99);
+}
+.cm-s-git-hub .CodeMirror-line::-moz-selection,
+.cm-s-git-hub .CodeMirror-line > span::-moz-selection,
+.cm-s-git-hub .CodeMirror-line > span > span::-moz-selection {
+    background: rgba(73, 72, 62, 0.99);
+}
+.cm-s-git-hub .CodeMirror-gutters {
+    background: rgb(13, 17, 23);
+    border-right: 0;
+}
+.cm-s-git-hub .CodeMirror-guttermarker {
+    color: #fff;
+}
+.cm-s-git-hub .CodeMirror-guttermarker-subtle {
+    color: #d0d0d0;
+}
+.cm-s-git-hub .CodeMirror-linenumber {
+    color: #929292;
+}
+.cm-s-git-hub .CodeMirror-cursor {
+    border-left: 1px solid #f8f8f0;
+}
+.cm-s-git-hub span.cm-comment {
+    color: rgb(139, 148, 158);
+}
+.cm-s-git-hub span.cm-atom {
+    color: rgb(121, 192, 255);
+}
+.cm-s-git-hub span.cm-number {
+    color: rgb(121, 192, 255);
+}
+.cm-s-git-hub span.cm-comment.cm-attribute {
+    color: rgb(139, 148, 158);
+}
+.cm-s-git-hub span.cm-comment.cm-def {
+    color: rgb(139, 148, 158);
+}
+.cm-s-git-hub span.cm-comment.cm-tag {
+    color: rgb(139, 148, 158);
+}
+.cm-s-git-hub span.cm-comment.cm-type {
+    color: rgb(139, 148, 158);
+}
+.cm-s-git-hub span.cm-attribute,
+.cm-s-git-hub span.cm-property {
+    color: rgb(121, 192, 255);
+}
+.cm-s-git-hub span.cm-keyword {
+    color: rgb(255, 123, 114);
+}
+.cm-s-git-hub span.cm-builtin {
+    color: rgb(139, 148, 158);
+}
+.cm-s-git-hub span.cm-string {
+    color: rgb(165, 214, 255);
+}
+.cm-s-git-hub span.cm-variable {
+    color: rgb(121, 192, 255);
+}
+.cm-s-git-hub span.cm-variable-2 {
+    color: rgb(201, 209, 217);
+}
+.cm-s-git-hub span.cm-type,
+.cm-s-git-hub span.cm-variable-3 { /* TIPOS */
+    color: rgb(201, 209, 217);
+}
+.cm-s-git-hub span.cm-def {
+    color: rgb(210, 168, 255);
+}
+.cm-s-git-hub span.cm-bracket {
+    color: rgb(255, 255, 255);
+}
+.cm-s-git-hub span.cm-tag {
+    color: rgb(139, 148, 158);
+}
+.cm-s-git-hub span.cm-header {
+    color: rgb(139, 148, 158);
+}
+.cm-s-git-hub span.cm-link {
+    color: rgb(139, 148, 158);
+}
+.cm-s-git-hub span.cm-error {
+    background: #f92672;
+    color: #f8f8f0;
+}
+.cm-s-git-hub .CodeMirror-activeline-background {
+    background: #373831;
+}
+.cm-s-git-hub .CodeMirror-matchingbracket {
+    text-decoration: underline;
+    color: #ff0000 !important;
+}

@@ -1,0 +1,87 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*,*::before {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 11pt;
+    background-color: #393939;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/*Chrome, Safari, Edge, Opera*/
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+a {
+    outline: none;
+    text-decoration: none;
+}
+
+.filas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+}
+
+.columnas {
+    margin-top: 1vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 1vh;
+}
+
+.codearea {
+    margin: 0 1rem;
+    padding: .1rem;
+    font-size: 11pt;
+    max-width: 100%;
+    min-width: 90%;
+}
+
+.botones {
+    margin: 0 1rem;
+    display: flex;
+    flex-direction: row;
+    column-gap: 1vh;
+    justify-content: baseline;
+    align-items: center;
+}
+
+.boton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border: 1px solid #22b81d;
+    border-radius: 5px;
+    box-sizing: border-box;
+    color: #22b81d;
+    cursor: pointer;
+    outline: 0;
+    text-align: center;
+    margin-bottom: 1vh;
+    height: 3.5vh;
+    width: 12%;
+}
+
+.boton:hover {
+    background-color: #22b81d;
+    color: white;
+}
+
+.boton:active {
+    background-color: #27da21;
+}

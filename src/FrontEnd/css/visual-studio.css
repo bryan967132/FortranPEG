@@ -1,0 +1,103 @@
+.cm-s-visual-studio.CodeMirror {
+    background: rgb(30, 30, 30);
+    color: #ffffff;
+}
+.cm-s-visual-studio div.CodeMirror-selected {
+    background: rgb(38, 79, 120);
+}
+.cm-s-visual-studio .CodeMirror-line::selection,
+.cm-s-visual-studio .CodeMirror-line > span::selection,
+.cm-s-visual-studio .CodeMirror-line > span > span::selection {
+    background: rgba(73, 72, 62, 0.99);
+}
+.cm-s-visual-studio .CodeMirror-line::-moz-selection,
+.cm-s-visual-studio .CodeMirror-line > span::-moz-selection,
+.cm-s-visual-studio .CodeMirror-line > span > span::-moz-selection {
+    background: rgba(73, 72, 62, 0.99);
+}
+.cm-s-visual-studio .CodeMirror-gutters {
+    background: rgb(30, 30, 30);
+    border-right: 0;
+}
+.cm-s-visual-studio .CodeMirror-guttermarker {
+    color: #fff;
+}
+.cm-s-visual-studio .CodeMirror-guttermarker-subtle {
+    color: #d0d0d0;
+}
+.cm-s-visual-studio .CodeMirror-linenumber {
+    color: #929292;
+}
+.cm-s-visual-studio .CodeMirror-cursor {
+    border-left: 1px solid #f8f8f0;
+}
+.cm-s-visual-studio span.cm-comment {
+    color: rgb(106, 153, 85);
+}
+.cm-s-visual-studio span.cm-atom {
+    color: rgb(181, 206, 168);
+}
+.cm-s-visual-studio span.cm-number {
+    color: rgb(181, 206, 168);
+}
+.cm-s-visual-studio span.cm-comment.cm-attribute {
+    color: rgb(106, 153, 85);
+}
+.cm-s-visual-studio span.cm-comment.cm-def {
+    color: rgb(106, 153, 85);
+}
+.cm-s-visual-studio span.cm-comment.cm-tag {
+    color: rgb(106, 153, 85);
+}
+.cm-s-visual-studio span.cm-comment.cm-type {
+    color: rgb(106, 153, 85);
+}
+.cm-s-visual-studio span.cm-attribute,
+.cm-s-visual-studio span.cm-property {
+    color: rgb(220, 220, 170);
+}
+.cm-s-visual-studio span.cm-keyword {
+    color: rgb(197, 134, 192);
+}
+.cm-s-visual-studio span.cm-builtin {
+    color: rgb(106, 153, 85);
+}
+.cm-s-visual-studio span.cm-string {
+    color: rgb(206, 145, 120);
+}
+.cm-s-visual-studio span.cm-variable {
+    color: rgb(220, 220, 170);
+}
+.cm-s-visual-studio span.cm-variable-2 {
+    color: rgb(220, 220, 170);
+}
+.cm-s-visual-studio span.cm-type,
+.cm-s-visual-studio span.cm-variable-3 { /* TIPOS */
+    color: rgb(220, 220, 170);
+}
+.cm-s-visual-studio span.cm-def {
+    color: rgb(220, 220, 170);
+}
+.cm-s-visual-studio span.cm-bracket {
+    color: rgb(255, 215, 0);
+}
+.cm-s-visual-studio span.cm-tag {
+    color: rgb(106, 153, 85);
+}
+.cm-s-visual-studio span.cm-header {
+    color: rgb(106, 153, 85);
+}
+.cm-s-visual-studio span.cm-link {
+    color: rgb(106, 153, 85);
+}
+.cm-s-visual-studio span.cm-error {
+    background: #f92672;
+    color: #f8f8f0;
+}
+.cm-s-visual-studio .CodeMirror-activeline-background {
+    background: #373831;
+}
+.cm-s-visual-studio .CodeMirror-matchingbracket {
+    text-decoration: underline;
+    color: #ff0000 !important;
+}
